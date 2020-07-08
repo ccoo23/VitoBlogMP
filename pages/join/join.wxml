@@ -1,0 +1,23 @@
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-dots="true" autoplay='true' interval='2000' circular='true'>
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="100vw" height="150" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class='item-list'>
+  <view class='items' wx:for="{{itemList}}">
+    <image class='logo' src='{{item.logo}}'></image>
+    <view class='item-body'>
+      <view class='text'>
+        <text class='title'>{{item.title}}</text>
+        <text class='desc'>{{item.desc}}</text>
+      </view>
+      <view class='buttons'>
+        <button class='click'>click</button>
+        <button class='click'>button</button>
+      </view>
+    </view>
+  </view>
+</view>
