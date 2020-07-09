@@ -1,13 +1,14 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/join/join",
-    "pages/logs/logs"
+    "pages/blog/blog",
+    "pages/logs/logs",
+    "pages/tools/tools"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#960527",
-    "navigationBarTitleText": "VitoMPTest",
+    "navigationBarTitleText": "Vito工具箱",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
@@ -15,15 +16,21 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "HomePage",
+        "text": "主页",
         "iconPath": "images/lunhua.png",
         "selectedIconPath": "images/lunhua_p.png"
       },
       {
-        "pagePath": "pages/join/join",
-        "text": "JoinPage",
+        "pagePath": "pages/blog/blog",
+        "text": "博客",
         "iconPath": "images/ganlanqiu.png",
         "selectedIconPath": "images/ganlanqiu_p.png"
+      },
+      {
+        "pagePath": "pages/tools/tools",
+        "text": "工具箱",
+        "iconPath": "images/tools.png",
+        "selectedIconPath": "images/tools_selected.png"
       }
     ]
   },

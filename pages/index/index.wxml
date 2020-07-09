@@ -10,4 +10,7 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <view class="terms">
+    四次元空间使用许可管理局承编号D7E1296
+  </view>
 </view>

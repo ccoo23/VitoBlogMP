@@ -1,4 +1,9 @@
 /**index.wxss**/
+/* 通用 */
+page {
+  height: 100%;
+  width: 100%;
+}
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -18,4 +23,10 @@
 
 .usermotto {
   margin-top: 200px;
+}
+
+.terms {
+  font-size: 17rpx;
+  position: absolute;
+  bottom: 10rpx;
 }

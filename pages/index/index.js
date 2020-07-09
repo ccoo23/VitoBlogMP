@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'vito的实验小程序',
+    motto: '维托的个人小程序',
     userInfo: {
       nickName: 'Niko'
     },
